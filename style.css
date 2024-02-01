@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0; /* Remove default body margin */
+}
+
+header {
+    background-color: #5f21b7;
+    color: rgb(225, 231, 233);
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Make the header a positioned container */
+}
+
+.profile-photo {
+    border-radius: 50%; /* Make the image round */
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    object-fit: cover; /* Maintain aspect ratio */
+    position: absolute; /* Position the image absolutely within the header */
+    top: 10px; /* Adjust the distance from the top */
+    left: 10px; /* Adjust the distance from the left */
+}
+
+/* ... (rest of the styles) ... */
+
+
+h1 {
+    margin-top: 20px; 
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.contact ul, .skills p, .education p, .work-experience p, .work-experience ul, .projects ul, .summary p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
